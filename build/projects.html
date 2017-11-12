@@ -10,10 +10,24 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <section class="main-container portfolio-main">
+    <section class="main-container portfolio-projects">
         <div class="container-fluid">
-            <h1 class="portfolio-main__h1">Create<br/> the <span>web face</span><br/> of Company</h1>
-            <p class="portfolio-main__text">The world famous UX and UI Design Agency<br/> in New York and San Francisco.</p>
+            <ul class="portfolio-projects__list">
+                <li>
+                    <a href="#">
+                        <div class="image-box"><img src="images/project.png" width="402px" height="300px" class="image" alt="Name project"/></div>
+                        <h2>FitnessPack</h2>
+                        <p>UX / UI / WEB</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="image-box"><img src="images/project.png" width="402px" height="300px" class="image" alt="Name project"/></div>
+                        <h2>FitnessPack</h2>
+                        <p>UX / UI / WEB</p>
+                    </a>
+                </li>
+            </ul>
             <a href="mailto:personal@gomelevskij.ru?subject=I want create awesome project!" target="_blank" class="portfolio-main__say-hello">Say hello</a>
             <div class="portfolio-main__nav-bar">
                 <button class="nav-btn">menu</button>
@@ -29,7 +43,7 @@
     <section class="nav-modal" style="display: none;">
         <ul class="nav-modal__list">
            <li><a href="about.html">About me</a></li>
-           <li><a href="projects.html">My cases</a></li>
+           <li class="active"><a href="projects.html">My cases</a></li>
            <li class="blog-item"><a href="#">My blog</a></li>
            <li><a href="contacts.html">Contact</a></li>
         </ul>
